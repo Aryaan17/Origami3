@@ -20,6 +20,10 @@ h1 {
     border: solid;
     border-color: #FF0000;
 }
+a:visited {
+    color: red;
+    text-decoration: none;
+}
 .paraTitle {
     background-color: red;
 }
@@ -35,4 +39,19 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.gridItem:hover{
+    transform: scale(1.2);
+}
+.gridItem:hover p{
+    opacity: 1;
+}
+.gridItem img{
+    position: relative;
+}
+.gridItem p{
+    opacity: 0;
+    position: absolute;
+    top: 20%;
+    left: 10%;
 }
